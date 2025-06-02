@@ -1,12 +1,12 @@
-import Header from "@/components/Header";
-import ProductCatalog from "@/components/ProductCatalog";
+import ForumHeader from "@/components/ForumHeader";
+import ThreadList from "@/components/ThreadList";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-pink-50 via-blue-50 to-peach-50">
-      <Header />
+    <div className="min-h-screen bg-gray-900">
+      <ForumHeader />
       <main>
-        <ProductCatalog />
+        <ThreadList />
       </main>
     </div>
   );
