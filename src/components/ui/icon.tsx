@@ -1,4 +1,13 @@
-import { ShoppingCart, Plus, CircleAlert, type LucideIcon } from "lucide-react";
+import {
+  ShoppingCart,
+  Plus,
+  CircleAlert,
+  Phone,
+  Heart,
+  Star,
+  Baby,
+  type LucideIcon,
+} from "lucide-react";
 
 interface IconProps {
   name: string;
@@ -11,6 +20,10 @@ const iconMap: Record<string, LucideIcon> = {
   ShoppingCart,
   Plus,
   CircleAlert,
+  Phone,
+  Heart,
+  Star,
+  Baby,
 };
 
 const Icon = ({
